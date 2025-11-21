@@ -1,74 +1,96 @@
-# 📘 DOM Assignment  
-### 👩‍💻 Author: **Shreya Sharma**
+# 📘 JavaScript DOM Assignments  
+### **Author: Shreya Sharma**
 
-This repository contains DOM-based JavaScript tasks focusing on event handling, dynamic updates, and browser storage.  
-The assignment includes two main tasks: a Dynamic To-Do List and a Live Character Counter.
-
----
-
-## 📚 Table of Contents
-1. [Overview](#-overview)
-2. [Task 1 – Dynamic To-Do List](#-task-1--dynamic-to-do-list)
-3. [Task 2 – Live Character Counter](#-task-2--live-character-counter)
-4. [Technologies Used](#-technologies-used)
-5. [How to Run](#-how-to-run)
-6. [Author](#-author)
+This repository contains solutions to 5 JavaScript DOM Manipulation assignments.  
+Each task is organized in a separate folder with its own HTML, CSS, and JavaScript files.
 
 ---
 
-## 📘 Overview
-This assignment helps in understanding:
-
-- DOM element creation  
-- Event listeners  
-- Updating elements dynamically  
-- Editing & deleting elements  
-- Using **localStorage** to store data  
-- Real-time UI updates  
-
-These tasks build strong fundamentals of DOM manipulation with JavaScript.
+## 📂 **Folder Structure**
+- `Task1-TodoList/`
+- `Task2-CharacterCounter/`
+- `Task3-ImageCarousel/`
+- `Task4-FormValidation/`
+- `Task5-ProductFilter/`
 
 ---
 
-## 📝 Task 1 – Dynamic To-Do List
+# ✅ **Task 1: Dynamic To-Do List**
+### **Objective:**  
+Create a dynamic task list using DOM methods.
 
-### 🎯 Objective  
-To practice element creation, event handling, dynamic DOM updates, and persistent storage.
-
-### 📌 Instructions  
-- Create an **input box** and an **“Add Task”** button.  
-- When the user enters a task and clicks the button, append it to a `<ul>`.  
-- Each task must include:  
-  - **Edit** button  
-  - **Delete** button  
-- Editing should update the task **without page reload**.  
-- Deleting should remove the task immediately.  
-
-### ⭐ Bonus (5 Marks)  
-Use **localStorage** so tasks remain saved even after refreshing the page.
+### **Features:**
+- Add tasks  
+- Edit tasks  
+- Delete tasks  
+- Dynamic updates  
+- LocalStorage used to save tasks (Bonus)
 
 ---
 
-## 📝 Task 2 – Live Character Counter
+# ✅ **Task 2: Live Character Counter**
+### **Objective:**  
+Show real-time remaining character count while typing.
 
-### 🎯 Objective  
-To practice **real-time DOM manipulation**.
-
-### 📌 Instructions  
-- Create a **textarea**.  
-- Display a counter such as:  
-  **“Characters left: 100”**  
-- As the user types, update the counter live.  
-- Prevent the user from typing beyond the limit (optional bonus).
+### **Features:**
+- 100-character limit  
+- Remaining characters update automatically  
+- Color changes (Green → Orange → Red) near limit (Bonus)
 
 ---
 
-## 🛠 Technologies Used
-- **HTML**
-- **CSS**
-- **JavaScript (DOM)**
+# ✅ **Task 3: Image Carousel**
+### **Objective:**  
+Create an image slideshow using timed DOM updates.
+
+### **Features:**
+- 5-image carousel  
+- Next / Previous buttons  
+- Auto-slide every 3 seconds  
+- Pauses on hover (Bonus)
 
 ---
 
-## 🚀 How to Run
-1. Clone the repository:
+# ✅ **Task 4: Form Validation App**
+### **Objective:**  
+Validate form fields using JavaScript (no alerts).
+
+### **Features:**
+- Required field validation  
+- Email must contain '@'  
+- Password minimum 8 characters  
+- Inline error messages  
+- Green/Red border indicators (Bonus)
+
+---
+
+# ✅ **Task 5: Interactive Product Filter**
+### **Objective:**  
+Filter items dynamically using array methods + DOM.
+
+### **Features:**
+- Product list with categories  
+- Filter buttons: All / Electronics / Clothing  
+- Keyword search box (Bonus)
+
+---
+
+# 🛠 **Technologies Used**
+- HTML  
+- CSS  
+- JavaScript  
+- DOM Manipulation  
+- LocalStorage  
+
+---
+
+# 📌 **How to Use**
+1. Open any task folder  
+2. Run the `index.html` file in a web browser  
+3. View the output of each assignment
+
+---
+
+# 🙌 **Author**
+**Shreya Sharma**  
+JavaScript DOM Assignment Collection  
