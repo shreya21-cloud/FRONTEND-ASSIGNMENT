@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Filter</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+
+    button {
+      padding: 8px 15px;
+      margin: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #productList {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .product-item {
+      padding: 10px;
+      background: #f0f0f0;
+      margin: 5px 0;
+      border-radius: 5px;
+    }
+
+    #searchBox {
+      width: 300px;
+      padding: 10px;
+      margin-top: 15px;
+      font-size: 16px;
+      border: 2px solid #aaa;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Interactive Product Filter</h2>
+
+
+  <button id="allBtn">All</button>
+  <button id="elecBtn">Electronics</button>
+  <button id="clothBtn">Clothing</button>
+
+  <br><br>
+
+
+  <input type="text" id="searchBox" placeholder="Search products...">
+
+
+  <div id="productList"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

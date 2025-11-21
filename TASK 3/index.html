@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Carousel</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    #carousel {
+      width: 500px;
+      height: 300px;
+      margin: auto;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    }
+
+    #carousel img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 20px 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Image Carousel</h2>
+
+  <div id="carousel">
+    <img id="slideImg" src="img1.jpg" alt="Slideshow">
+  </div>
+
+  <br>
+
+  <button id="prevBtn">Previous</button>
+  <button id="nextBtn">Next</button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
